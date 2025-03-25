@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>videobelajar/Login</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+<body>
+    <nav class="nav">
+        <img src="/assets/logo.png" alt="logo" class="image">
+        <div></div>
+    </nav>
+    <main>
+        <section class="section">
+            <div class="desc">
+                <h1>Pendaftaran Akun</h1>
+                <h3>Yuk, daftarkan akunmu sekarang juga!</h3>
+            </div>
+            <form>
+                <div class="input">
+                    <div class="label">
+                        <label for="name">Nama Lengkap</label>
+                        <p>*</p>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" name="name" id="name" required>
+                    </div>
+                </div>
+                <div class="input">
+                    <div class="label">
+                        <label for="email">E-Mail</label>
+                        <p>*</p>
+                    </div>
+                    <div class="input-field">
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                </div>
+                <div class="input">
+                    <div class="label">
+                        <label for="phone">No. Hp</label>
+                        <p>*</p>
+                    </div>
+                    <div class="input-field phone-container">
+                        <div class="country-code">
+                            <img src="/assets/indonesia.png" alt="ID" class="flag">
+                            <select name="country-code" id="country-code">
+                                <option value="+62">+62</option>
+                            </select>
+                        </div>
+                        <input type="tel" name="phone" id="phone" required placeholder="81234567890">
+                    </div>
+                </div>
+                <div class="input">
+                    <div class="label">
+                        <label for="password">Kata Sandi</label>
+                        <p>*</p>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" name="password" id="password" required>
+                        <p>
+                            <i class="uil uil-eye-slash"></i>
+                        </p>
+                    </div>
+                </div>
+                <div class="input">
+                    <div class="label">
+                        <label for="password">Konfirmasi Kata Sandi</label>
+                        <p>*</p>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" name="password" id="password" required>
+                        <p>
+                            <i class="uil uil-eye-slash"></i>
+                        </p>
+                    </div>
+                </div>
+                <div class="forgetPassword">
+                    <a href="">Lupa Password?</a>
+                </div>
+
+                <button type="submit" class="btn-green">Daftar</button>
+                <a href="login.html" class="btn-green-outline">Masuk</a>
+                
+                <div class="content-break">
+                    <span></span>
+                    <p>atau</p>
+                </div>
+                                <button class="btn-white">
+                    <img src="/assets/google.png" alt="google">
+                    Masuk dengan Google</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
