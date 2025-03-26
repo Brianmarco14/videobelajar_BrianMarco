@@ -128,6 +128,10 @@ body {
   z-index: 99;
 }
 
+.nav .menu-mobile {
+  display: none;
+}
+
 .menu {
   width: 100%;
   display: flex;
@@ -787,7 +791,7 @@ footer .media .media-list p {
   align-items: center;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 480px) {
   .heading-1 {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
@@ -825,6 +829,12 @@ footer .media .media-list p {
 
   .nav .nav-profile {
     display: none;
+  }
+
+  .nav .menu-mobile {
+    display: block;
+    font-size: 20px;
+    color: #4A505C;
   }
 
   .nav .nav-logo {
